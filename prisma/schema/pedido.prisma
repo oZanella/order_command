@@ -1,0 +1,7 @@
+model Pedido {
+  id           Int       @id @default(autoincrement())
+  pessoaId     Int
+  descricao    String
+  pessoa       Pessoa    @relation(fields: [pessoaId], references: [id])
+  produtos     PedidosProdutos[]
+}
