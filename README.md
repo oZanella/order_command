@@ -17,7 +17,7 @@
 Clone o projeto e instale as dependências:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/oZanella/order_command
 cd comando-dos-guri
 npm install
 ```
